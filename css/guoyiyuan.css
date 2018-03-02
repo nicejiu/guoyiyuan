@@ -1,0 +1,242 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 572331 */
+  src: url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.eot');
+  src: url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.svg#iconfont') format('svg');
+}
+.shouye{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	overflow-y: scroll;
+	flex-direction: column;
+}
+.shouye::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+.top{
+	width: 100%;
+	height: 0.98rem;
+	border-bottom: 0.01rem solid #A0A0A0;
+	line-height: .98rem;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.add{
+	width: 1rem;
+	height: 0.98rem;
+	float: left;
+	line-height: .98rem;
+}
+.add h1{
+	font-size: .2rem;
+	float: left;
+	margin-left: .2rem;
+	font-weight: normal;
+}
+.add p{
+	font-family: 'iconfont';
+	float: left;
+	font-size: .24rem;
+	margin-left: .1rem;
+}
+
+.search{
+	margin:0.22rem  .26rem 0 0.55rem;
+	float: left;
+	width: 4.6rem;
+	height: 0.6rem;
+	border: 0.01rem solid #EBEBEB;
+	background-color: #F4F3F1;
+	border-radius: 0.6rem;
+}
+.search_btn{
+	width: 0.75rem;
+	height: 100%;
+	font-family: 'iconfont';
+	line-height: 0.6rem;
+	text-align: center;
+	font-size: 0.31rem;
+	float: left;
+}
+.search_content{
+	width: 3.74rem;
+	height: 100%;
+	margin-left:  0.04rem;
+	line-height: 0.6rem;
+	font-size: 24px;
+	letter-spacing: 3px;
+	float: right;
+	border:transparent;
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+	display: inline-block;
+	font-size: 0.28rem;
+}
+.xiaoxi{
+	font-family: 'iconfont';
+	font-size: .4rem;
+	color: #000;
+	float: right;
+	/* margin-top: .3rem; */
+	margin-right: .2rem;
+}
+.nav{
+	width: 100%;
+	height: 0.88rem;
+	font-size: 0.34rem;
+	border-bottom: 0.01rem solid #EBEBEB;
+	background-color: #fff;
+	position: fixed;
+	top: .98rem;
+	left: 0;
+	line-height: 0.8rem;
+	/* background-color: pink; */
+}
+.nav_name{
+	font-size: .2rem;
+	margin-left: 0.3rem;
+	float: left;
+}
+.nav_name2{
+	margin-left: 0.2rem;
+	color: #D34041;
+}
+.neirong{
+	width: 7.5rem;
+	background-color: #FF0000;
+	padding-bottom: .98rem;
+	position: absolute;
+	top: 1.86rem;
+	left: 0;
+	z-index: -1;
+	/* display: flex; */
+	/* overflow-y:scroll;  */
+}
+.neirong::-webkit-scrollbar{
+	display: none;
+	/* display: block; */
+}
+.banner{
+	width: 7.5rem;
+	height: 3.576rem;
+}
+.chanpin{
+	width: 7.5rem;
+	height: 2.84rem;
+	border-bottom: 1px solid #EAE8E6;
+	border-top: 1px solid #EAE8E6;
+	background-color: #fff;
+	position: relative;
+}
+.chanpin_img{
+	width: 2.32rem;
+	height: 2.32rem;
+	margin: .25rem;
+	float: left;
+}
+.chanpin_text{
+	height: 2.52rem;
+	float: left;
+	margin-top: .15rem;
+	position: relative;
+	word-break: normal;
+}
+.chanpin_text p{
+	font-size: .3rem;
+	color: #000;
+}
+.chanpin_text h1{
+	font-size: .3rem;
+	color: #ADA9A3;
+	margin-top: .05rem;
+}
+.chanpin_zhijiang{
+	width: 1.5rem;
+	height: .5rem;
+	border: 1px solid #FC8E1C;
+	border-radius: .05rem;
+	line-height: .5rem;
+	text-align: center;
+	margin-top: .1rem;
+	/* padding: .03rem; */
+	font-size: .25rem;
+	color: #FC8E1C;
+}
+.chanpin_text2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.chanpin_text h2{
+	font-size: .3rem;
+	color: #ADA9A3;
+	margin-top: .05rem;
+	white-space: nowrap;
+	
+}
+.chanpin_text h3{
+	font-size: .4rem;
+	color: #FC8E1C;
+	display: inline-block;	
+}
+.chanpin_text h4{
+	font-size: .3rem;
+	color: #ADA9A3;
+	text-decoration: line-through;	
+	display: inline-block;	
+	margin-left: .1rem;
+}
+.chanpin_car{
+	width: .6rem;
+	height: .6rem;
+	border: 1px solid #D1D1D1;
+	border-radius: .1rem;
+	position: absolute;
+	bottom: .2rem;
+	right: .15rem;
+	font-family: 'iconfont';
+	font-size: .4rem;
+	color: #FA9315;
+	text-align: center;
+	line-height: .6rem;
+}
+
+.weibu{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color:#F9F9F8 ;/* #F9F9F8 */
+	padding: 0.15rem 0.24rem 0rem;
+}
+.footer_btn1{
+	width: 1.755rem;
+	text-align: center;
+	float: left;
+}
+.footer_btn1 p{
+	font-family: 'iconfont';
+	font-size: .30rem;
+	margin-bottom: 10px;
+}
+.footer_btn1 a{
+	font-size: .2rem;
+	font-weight: 300;
+	margin-top: 10px;
+	color: #000;
+}
+.footer_btn2{
+	color: #FF5A57;
+}

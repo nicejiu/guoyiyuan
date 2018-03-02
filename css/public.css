@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	/* body 上的margin值8 */
+	text-decoration: none;
+	font-style: normal;
+	/* 字体斜体 */
+	font-size: 0;
+	font-weight: normal;
+	padding: 0;
+	list-style: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+}
