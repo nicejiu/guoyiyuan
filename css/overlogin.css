@@ -60,12 +60,21 @@
 	float: right;
 	margin-right: .4rem;
 }
-.yuan img{
-	width: 2rem;
-	height: 2rem;
-	border-radius: 50%;
+.yuan{
+	width: 1.7rem;
+	height: .7rem;
+	border: .01rem solid #fff;
 	margin-left: 2.7rem;
-	margin-top: .6rem;
+	margin-top: 1.5rem;
+	text-align: center;
+	line-height: .7rem;
+	/*font-size: .28rem;*/
+}
+.yuan p{
+	font-size: .28rem;
+	float: left;
+	color: #fff;
+	margin-left: .1rem;
 }
 .nicheng{
 	font-size: .35rem;

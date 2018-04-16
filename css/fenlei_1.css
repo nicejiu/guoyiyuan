@@ -1,14 +1,15 @@
 @font-face {
-  font-family: 'iconfont';  /* project id 572331 */
-  src: url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.eot');
-  src: url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_572331_subeiqatcdwy7gb9.svg#iconfont') format('svg');
+	font-family: 'iconfont';  /* project id 572331 */
+	src: url('https://at.alicdn.com/t/font_572331_fjdg60k3js16ecdi.eot');
+	src: url('https://at.alicdn.com/t/font_572331_fjdg60k3js16ecdi.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_572331_fjdg60k3js16ecdi.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_572331_fjdg60k3js16ecdi.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_572331_fjdg60k3js16ecdi.svg#iconfont') format('svg');
 }
-.shouye{
+.fenlei{
 	width: 100%;
 	height: 100%;
+	background-color: #F4F3F1;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -16,10 +17,6 @@
 	margin: auto;
 	overflow-y: scroll;
 	flex-direction: column;
-}
-.shouye::-webkit-scrollbar{
-	display: none;
-	/* display: block; */
 }
 .top{
 	width: 100%;
@@ -31,25 +28,18 @@
 	top: 0;
 	left: 0;
 }
-.add{
+.return{
 	width: 1rem;
 	height: 0.98rem;
 	float: left;
 	line-height: .98rem;
 }
-.add h1{
-	font-size: .2rem;
-	float: left;
-	margin-left: .2rem;
-	font-weight: normal;
-}
-.add p{
+.return p{
 	font-family: 'iconfont';
 	float: left;
-	font-size: .24rem;
+	font-size: .32rem;
 	margin-left: .1rem;
 }
-
 .search{
 	margin:0.22rem  .26rem 0 0.55rem;
 	float: left;
@@ -83,53 +73,54 @@
 	display: inline-block;
 	font-size: 0.28rem;
 }
-.xiaoxi{
-	font-family: 'iconfont';
-	font-size: .4rem;
-	color: #000;
-	float: right;
-	/* margin-top: .3rem; */
-	margin-right: .2rem;
-}
-.nav{
+.choose{
 	width: 100%;
-	height: 0.88rem;
-	font-size: 0.34rem;
-	border-bottom: 0.01rem solid #EBEBEB;
+	height: 0.86rem;
+	border-bottom: 0.01rem solid #A0A0A0;
+	line-height: .98rem;
 	background-color: #fff;
 	position: fixed;
 	top: .98rem;
 	left: 0;
-	line-height: 0.8rem;
-	/* background-color: pink; */
 }
-.nav_name{
-	font-size: .2rem;
-	margin-left: 0.3rem;
+.choose1{
+	width: 25%;
+	text-align: center;
 	float: left;
 }
-.nav_name2{
-	margin-left: 0.2rem;
-	color: #D34041;
+.choose1 p{
+	font-size: .18rem;
+	display: inline-block;
+}
+.choose1 h1{
+	font-family: 'iconfont';
+	font-size: .20rem;
+	display: inline-block;
+	margin-left: .1rem;
+}
+.choose1 h2{
+	width: .14rem;
+	height: .14rem;
+	margin-left: .1rem;
+	display: inline-block;
+	border: .01rem solid #d8d3d3;
+	overflow: hidden;
+	position: relative;
 }
 .neirong{
 	width: 7.5rem;
-	background-color: #FF0000;
-	padding-bottom: .98rem;
+	background-color: #e6e6e6;
+	/*padding-bottom: .98rem;*/
 	position: absolute;
-	top: 1.86rem;
+	top: 1.78rem;
 	left: 0;
-	z-index: -1;
+	z-index: 0;
 	/* display: flex; */
 	/* overflow-y:scroll;  */
 }
 .neirong::-webkit-scrollbar{
 	display: none;
 	/* display: block; */
-}
-.banner{
-	width: 7.5rem;
-	height: 3.576rem;
 }
 .chanpin{
 	width: 7.5rem;
@@ -183,18 +174,18 @@
 	color: #ADA9A3;
 	margin-top: .05rem;
 	white-space: nowrap;
-	
+
 }
 .chanpin_text h3{
 	font-size: .4rem;
 	color: #FC8E1C;
-	display: inline-block;	
+	display: inline-block;
 }
 .chanpin_text h4{
 	font-size: .3rem;
 	color: #ADA9A3;
-	text-decoration: line-through;	
-	display: inline-block;	
+	text-decoration: line-through;
+	display: inline-block;
 	margin-left: .1rem;
 }
 .chanpin_car{
@@ -211,32 +202,11 @@
 	text-align: center;
 	line-height: .6rem;
 }
-
-.weibu{
-	width: 100%;
-	height: 0.98rem;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	background-color:#F9F9F8 ;/* #F9F9F8 */
-	padding: 0.15rem 0.24rem 0rem;
-}
-.footer_btn1{
-	width: 1.755rem;
+.nomore{
 	text-align: center;
-	float: left;
-}
-.footer_btn1 p{
-	font-family: 'iconfont';
-	font-size: .30rem;
-	margin-bottom: 10px;
-}
-.footer_btn1 a{
-	font-size: .2rem;
-	font-weight: 300;
-	margin-top: 10px;
+	font-size: .16rem;
+	line-height: 1rem;
+	position: relative;
+	z-index: 999;
 	color: #000;
-}
-.footer_btn2{
-	color: #FF5A57;
 }

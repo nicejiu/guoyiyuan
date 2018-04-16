@@ -1,9 +1,7 @@
 *{
 	margin: 0;
-	/* body 上的margin值8 */
 	text-decoration: none;
 	font-style: normal;
-	/* 字体斜体 */
 	font-size: 0;
 	font-weight: normal;
 	padding: 0;
@@ -16,4 +14,89 @@ img{
 	height: 100%;
 	border: 0;
 	display: block;
+}
+*{
+	margin: 0; /* body-8px */
+	padding: 0;
+	text-decoration: none;
+	font-style: normal; /* i鏍囩 */
+	list-style: none;/* 鍒楄〃 */
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-family: "寰蒋闆呴粦";
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+}
+body{
+	background-color: #F5F5F5;
+}
+a{
+	color:#fff;
+}
+@font-face {
+	font-family: 'iconfont';  /* project id 621926 */
+	src: url('https://at.alicdn.com/t/font_621926_loej5142qkw3ik9.eot');
+	src: url('https://at.alicdn.com/t/font_621926_loej5142qkw3ik9.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_621926_loej5142qkw3ik9.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_621926_loej5142qkw3ik9.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_621926_loej5142qkw3ik9.svg#iconfont') format('svg');
+}
+header{
+	width: 100%;
+	height: 1.14rem;
+	background-color: #4fff47;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 0.33rem;
+	color: #fff;
+	line-height: 0.6rem;
+}
+main::-webkit-scrollbar{
+	display: none;
+}
+footer{
+	width: 100%;
+	height: 1rem;
+	background-color: #F7F7F7;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0.17rem 0.66rem 0;
+	display: flex;
+	justify-content: space-between;
+	border-top: 0.01rem solid #E9E9E9;
+}
+.footer_btn1{
+	width: 0.71rem;
+	height: 0.72rem;
+	text-align: center;
+	float: left;
+}
+.footer_name{
+	height: 50%;
+	width: 100%;
+	line-height:0.49rem;
+	font-family: 'iconfont';
+	font-size: 0.4rem;
+	color: #4B4B4B;
+	display: block;
+}
+.footer_wenzi{
+	margin-top: 0.06rem;
+	height: 50%;
+	width: 100%;
+	font-size: 0.25rem;
+	color: #494949;
+	display: block;
+}
+.footer_btn3 a{
+	color: #008DFF;
+}
+.footer_name2{
+	font-size: 0.3rem;
 }
